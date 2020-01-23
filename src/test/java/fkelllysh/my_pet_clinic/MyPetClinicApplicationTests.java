@@ -1,0 +1,13 @@
+package fkelllysh.my_pet_clinic;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MyPetClinicApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
