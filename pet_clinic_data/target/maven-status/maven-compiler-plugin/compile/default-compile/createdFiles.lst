@@ -1,6 +1,5 @@
 my_pet_clinic\model\Owner.class
-my_pet_clinic\model\Person.class
-my_pet_clinic\MyPetClinicApplication.class
 my_pet_clinic\model\Pet.class
 my_pet_clinic\model\PetType.class
 my_pet_clinic\model\Vet.class
+my_pet_clinic\model\Person.class

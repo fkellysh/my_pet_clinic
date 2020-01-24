@@ -1,6 +1,14 @@
 C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\Vet.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\CrudService.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\OwnerService.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\map\PetServiceMap.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\BaseEntity.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\VetService.java
 C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\Person.java
 C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\PetType.java
-C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\MyPetClinicApplication.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\map\VetServiceMap.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\map\OwnerServiceMap.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\PetService.java
 C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\Owner.java
 C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\model\Pet.java
+C:\Users\fkellysh\Documents\sfg_project\my_pet_clinic\pet_clinic_data\src\main\java\my_pet_clinic\services\map\AbstractMapService.java
