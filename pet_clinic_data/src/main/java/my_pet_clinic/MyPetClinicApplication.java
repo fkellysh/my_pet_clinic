@@ -1,4 +1,4 @@
-package fkelllysh.my_pet_clinic;
+package my_pet_clinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

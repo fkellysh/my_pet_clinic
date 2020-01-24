@@ -1,4 +1,4 @@
-package fkelllysh.my_pet_clinic.model;
+package my_pet_clinic.model;
 
 import java.time.LocalDate;
 
