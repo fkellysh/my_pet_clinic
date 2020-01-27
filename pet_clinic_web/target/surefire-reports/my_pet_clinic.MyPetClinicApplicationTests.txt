@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: my_pet_clinic.MyPetClinicApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.867 s - in my_pet_clinic.MyPetClinicApplicationTests
