@@ -11,4 +11,6 @@ public interface OwnerService {
     Owner save(Owner owner);
 
     Set<Owner> findAll();
+
+    Owner findByLastName(String lastName);
 }
