@@ -1,9 +1,14 @@
 package my_pet_clinic.model;
 //rar
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
+@Getter
+@Setter
 @MappedSuperclass
 public class Person extends BaseEntity{
 
@@ -26,6 +31,7 @@ public class Person extends BaseEntity{
         this.firstName = firstName;
     }
 
+    /*
     public String getFirstName() {
         return firstName;
     }
@@ -41,4 +47,6 @@ public class Person extends BaseEntity{
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+     */
 }

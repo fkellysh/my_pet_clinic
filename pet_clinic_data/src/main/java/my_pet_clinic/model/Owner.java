@@ -1,10 +1,17 @@
 package my_pet_clinic.model;
 
+import lombok.*;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "owners")
 public class Owner extends Person {
@@ -19,7 +26,7 @@ public class Owner extends Person {
     @Column(name = "telephone")
     private String telephone;
 
-    public Set<Pet> getPets() {
+    /*public Set<Pet> getPets() {
         return pets;
     }
 
@@ -50,4 +57,6 @@ public class Owner extends Person {
     public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
+
+     */
 }
