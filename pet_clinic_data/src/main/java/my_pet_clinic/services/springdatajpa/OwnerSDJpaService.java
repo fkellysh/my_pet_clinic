@@ -32,14 +32,7 @@ public class OwnerSDJpaService implements OwnerService{
 
     @Override
     public Owner findById(Long id) {
-        Optional<Owner> optionalOwner = ownerRepository.findById(id);
-
-        if(optionalOwner.isPresent()) {
-            return optionalOwner.get();
-        } else {
-            return null;
-        }
-
+        return ownerRepository.findById(id).orElse(null);
     }
 
     @Override
