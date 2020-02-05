@@ -1,0 +1,3 @@
+my_pet_clinic\services\map\OwnerServiceMapTest.class
+my_pet_clinic\services\map\PetServiceMapTest.class
+my_pet_clinic\services\springdatajpa\OwnerSDJpaServiceTest.class
