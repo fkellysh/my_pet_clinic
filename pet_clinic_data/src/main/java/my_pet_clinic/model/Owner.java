@@ -1,10 +1,11 @@
 package my_pet_clinic.model;
 
 import lombok.*;
+import org.springframework.beans.support.MutableSortDefinition;
+import org.springframework.beans.support.PropertyComparator;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 
 @Getter
@@ -26,9 +27,25 @@ public class Owner extends Person {
     @Column(name = "telephone")
     private String telephone;
 
-    /*public Set<Pet> getPets() {
-        return pets;
+    public Pet getPet(String name) {
+        return getPet(name, false);
     }
+
+    public Pet getPet(String name, boolean ignoreNew) {
+        name = name.toLowerCase();
+        for(Pet pet: pets) {
+            if(!ignoreNew || !pet.isNew()) {
+                String compName = pet.getName();
+                compName = compName.toLowerCase();
+                if(compName.equals(name)) {
+                    return pet;
+                }
+            }
+        }
+
+        return null;
+    }
+    /*
 
     public void setPets(Set<Pet> pets) {
         this.pets = pets;
