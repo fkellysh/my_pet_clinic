@@ -32,7 +32,7 @@ public class PetController {
         this.petTypeService = petTypeService;
     }
 
-    @InitBinder("types")
+    @InitBinder("owner")
     public void initOwnerBinder(WebDataBinder dataBinder) {
         dataBinder.setDisallowedFields("id");
     }
