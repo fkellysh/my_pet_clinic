@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: my_pet_clinic.controllers.OwnerControllerTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.478 s - in my_pet_clinic.controllers.OwnerControllerTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.097 s - in my_pet_clinic.controllers.OwnerControllerTest

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="my_pet_clinic.MyPetClinicApplicationTests" time="11.423" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="my_pet_clinic.controllers.PetControllerTest" time="0.51" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,5 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="contextLoads" classname="my_pet_clinic.MyPetClinicApplicationTests" time="0.056"/>
+  <testcase name="processUpdateForm" classname="my_pet_clinic.controllers.PetControllerTest" time="0.101"/>
+  <testcase name="findOwner" classname="my_pet_clinic.controllers.PetControllerTest" time="0.031"/>
+  <testcase name="initUpdateForm" classname="my_pet_clinic.controllers.PetControllerTest" time="0.137"/>
+  <testcase name="processCreationForm" classname="my_pet_clinic.controllers.PetControllerTest" time="0.086"/>
+  <testcase name="initCreationForm" classname="my_pet_clinic.controllers.PetControllerTest" time="0.062"/>
+  <testcase name="initOwnerBinder" classname="my_pet_clinic.controllers.PetControllerTest" time="0.045"/>
+  <testcase name="populatePetTypes" classname="my_pet_clinic.controllers.PetControllerTest" time="0.039"/>
 </testsuite>

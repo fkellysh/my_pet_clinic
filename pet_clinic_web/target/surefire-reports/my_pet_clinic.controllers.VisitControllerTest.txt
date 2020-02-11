@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: my_pet_clinic.controllers.VisitControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.106 s <<< FAILURE! - in my_pet_clinic.controllers.VisitControllerTest
+processNewVisitForm  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 200 expected:<REDIRECTION> but was:<SUCCESSFUL>
+	at my_pet_clinic.controllers.VisitControllerTest.processNewVisitForm(VisitControllerTest.java:99)
+
